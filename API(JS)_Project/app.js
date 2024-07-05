@@ -32,7 +32,7 @@ const BASE_URL = "https://api.currencyapi.com/v3/latest";
     amount.value = "1";
   }
 
-  const API_KEY = 'cur_live_kajVvZ6EQJjeBHm6OqTVlcpnTsV0aV73G1cIwjnS'; // Pallavi moti yahan apni API key dalni hai
+  const API_KEY = 'cur_live_kajVvZ6EQJjeBHm6OqTVlcpnTsV0aV73G1cIwjnS'; 
   const URL = `${BASE_URL}?apikey=${API_KEY}&base_currency=${fromCurr.value}&currencies=${toCurr.value}`;
 
   try {
